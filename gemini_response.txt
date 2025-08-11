@@ -1,0 +1,68 @@
+```json
+{
+  "inconsistencies": [
+    {
+      "type": "Numerical conflicts",
+      "slides": [1, 2],
+      "description": "Conflicting values for total impact and time saved per slide. Slide 1 states $2M impact and 15 minutes saved per slide, while slide 2 states $3M saved annually and 20 minutes saved per slide.",
+      "evidence": [
+        "Impact $2M\nSaved in lost productivity hours 15 mins\nSaved per slide created",
+        "Impact\n$3M saved in lost productivity hours annually\n20 mins saved per slide created"
+      ],
+      "severity": "High"
+    },
+    {
+      "type": "Numerical conflicts",
+      "slides": [3, 7],
+      "description": "Discrepancy in total monthly savings from Slide 3 (50 hours) and the breakdown of savings in Slide 7. Slide 3 shows 50 hours saved per consultant monthly (10+12+8+6+4), but Slide 7 shows varying amounts.",
+      "evidence": [
+        "Noogat: 50 Hours Saved Per Consultant Monthly\nKey Area | Description\nAutomated Formatting | Noogat automatically applies consistent formatting (e.g., fonts, colors, alignment) to slides, eliminating manual adjustments. This saves an estimated 10 hours per consultant monthly.\nContent Generation | Noogat's AI-powered content generation assists in drafting new slides and populating templates, significantly reducing initial setup time. This saves an estimated 12 hours per consultant monthly.\nChart & Table Creation | Noogat streamlines the creation and population of complex charts and tables from raw data, ensuring accuracy and visual appeal. This saves an estimated 8 hours per consultant monthly.\nLayout Optimization | Noogat optimizes slide layouts for clarity and impact, automatically arranging elements and suggesting improvements for visual hierarchy. This saves an estimated 6 hours per consultant monthly.\nReview & QA | Noogat's automated review features identify and correct common errors, ensuring high-quality, client-ready deliverables with minimal manual checking. This saves an estimated 4 hours per consultant monthly.",
+        "TABLE: Initiative Focus Area | Key Objective | Current Status | Target Completion\nAutomated Content Generation | Automate data analysis & content for slides | Delivering 12 hours saved per consultant/month | Ongoing\nStreamlined Chart/Table Creation | Accelerate visual data representation | Delivering 8 hours saved per consultant/month | Ongoing\nLayout Optimization | Automate slide design & formatting | Delivering 72 hours saved per consultant/year | Ongoing\nReview & QA Efficiency | Reduce repetitive tasks & manual processing | Delivering 4 hours saved per consultant/month | Ongoing"
+      ],
+      "severity": "High"
+    },
+    {
+      "type": "Numerical conflicts",
+      "slides": [3, 7],
+      "description": "Inconsistent time savings for Layout Optimization. Slide 3 states 6 hours saved per month, while slide 7 states 72 hours saved per year (which equates to 6 hours per month). This is a numerical inconsistency, but the presentation is inconsistent on whether they are using monthly or yearly data.",
+      "evidence": [
+        "Layout Optimization | Noogat optimizes slide layouts for clarity and impact, automatically arranging elements and suggesting improvements for visual hierarchy. This saves an estimated 6 hours per consultant monthly.",
+        "Layout Optimization | Automate slide design & formatting | Delivering 72 hours saved per consultant/year | Ongoing"
+      ],
+      "severity": "Medium"
+    },
+    {
+      "type": "Timeline mismatches",
+      "slides": [1, 2, 7],
+      "description": "Inconsistent timeframes are used for the reported savings. Slide 1 and 2 present the savings in a vague manner, making it hard to assess.  Slide 7 provides a more detailed breakdown which clarifies that the stated savings are ongoing and not an achievement.",
+      "evidence": [
+        "Impact $2M\nSaved in lost productivity hours 15 mins\nSaved per slide created",
+        "Impact\n$3M saved in lost productivity hours annually\n20 mins saved per slide created",
+        "TABLE: Initiative Focus Area | Key Objective | Current Status | Target Completion\nAutomated Content Generation | Automate data analysis & content for slides | Delivering 12 hours saved per consultant/month | Ongoing\nStreamlined Chart/Table Creation | Accelerate visual data representation | Delivering 8 hours saved per consultant/month | Ongoing\nLayout Optimization | Automate slide design & formatting | Delivering 72 hours saved per consultant/year | Ongoing\nReview & QA Efficiency | Reduce repetitive tasks & manual processing | Delivering 4 hours saved per consultant/month | Ongoing"
+      ],
+      "severity": "Medium"
+    },
+    {
+      "type": "Cross-slide comparisons of similar metrics",
+      "slides": [4, 5],
+      "description": "Slide 4 and 5 show a comparison of Noogat against competitors, but lacks specific numerical data on slide 5 to support the claims made in slide 4.",
+      "evidence": [
+        "Noogat delivers significant monthly time savings: 10 hours from automated formatting, 12 hours from AI-powered content generation, and 8 hours from streamlined chart and table creation.",
+        "Noogat significantly outperforms competitors in slide creation efficiency."
+      ],
+      "severity": "Medium"
+    },
+    {
+      "type": "Baseline omissions in comparative claims",
+      "slides": [4, 5, 6],
+      "description": "Comparisons between Noogat and competitors (Copilot and Gamma) lack a clear baseline.  The claims of superior performance aren't supported by showing what the situation was before using these tools.",
+      "evidence": [
+        "Noogat outperforms competitors by delivering significant monthly time savings per consultant",
+        "Noogat significantly outperforms competitors in slide creation efficiency.",
+        "Key Limitations of Copilot Compared to Gamma's Superior Slide Capabilities"
+      ],
+      "severity": "Medium"
+    }
+  ]
+}
+```
