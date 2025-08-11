@@ -34,8 +34,8 @@ This tool uses AI to analyze PowerPoint presentations for factual and logical in
 
 \`\`\`bash
 # Clone repository
-git clone https://github.com/yourusername/ppt-consistency-checker.git
-cd ppt-consistency-checker
+git clone https://github.com/sandeep14k/nougat.git
+cd nougat
 
 # Create virtual environment
 python -m venv venv
