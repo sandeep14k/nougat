@@ -132,3 +132,25 @@ python ppt_analyzer.py presentation.pptx -v
 - Generates summary statistics
 - Outputs machine-readable JSON
 
+## Limitations
+
+### Content Understanding:
+- Limited domain-specific knowledge
+- May miss implicit contradictions
+- Cannot interpret complex charts/graphs
+
+### Visual Elements:
+- Cannot analyze visual consistency (colors, layouts)
+- Limited chart interpretation capability
+- OCR accuracy depends on image quality
+
+### Scale Constraints:
+- Practical limit: ~100 slides
+- Token limit: ~1M tokens (Gemini 1.5 Flash)
+- Large decks (>150 slides) may require chunking
+
+### Accuracy Factors:
+- Depends on clarity of claims in text
+- May flag intentional restatements as errors
+- Limited ability to recognize contextual exceptions
+
